@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('movie-form');
 
   addMovieModal.addEventListener('hidden.bs.modal', () => {
+    movieTitleInput.classList.remove('is-invalid');
+    document.getElementById('movie-genre').classList.remove('is-invalid');
+    document.getElementById('movie-score-helper').innerHTML = 'Okay';
     form.reset();
   });
 
