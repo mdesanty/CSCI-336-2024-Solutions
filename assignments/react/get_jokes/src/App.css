@@ -1,0 +1,25 @@
+#get-chuck-jokes {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#get-chuck-jokes h1 {
+  padding-bottom: 10px;
+}
+
+#get-chuck-jokes .chuck-joke {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 900px;
+  border-radius: 5px;
+}
+
+#get-chuck-jokes .chuck-joke .joke-text {
+  font-size: large;
+}
+
+#get-chuck-jokes .chuck-joke .joke-info {
+  font-style: italic;
+  font-size: small;
+}
