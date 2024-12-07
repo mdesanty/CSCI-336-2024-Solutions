@@ -1,0 +1,26 @@
+#anime-shows-container {
+  background-color: black;
+}
+
+#anime-shows-container div.all-might {
+  position: absolute;
+  height: 100%;
+  width: 99.2%;
+  background-image: url("https://i.redd.it/w77579qot1n11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#anime-shows-container .fade-in {
+  transition: opacity 3.5s ease;
+  opacity: 1;
+}
+
+#anime-shows-container .fade-out {
+  transition: opacity 3.5s ease;
+  opacity: 0;
+}
+
+#anime-shows-container .text-antique {
+  color: antiquewhite;
+}
