@@ -1,0 +1,15 @@
+#greetings {
+  padding-left: 10px;
+}
+
+#greetings label {
+  padding-right: 10px;
+}
+
+#greetings div.input-container {
+  margin-bottom: 10px;
+}
+
+#greetings button {
+  margin-top: 10px;
+}
